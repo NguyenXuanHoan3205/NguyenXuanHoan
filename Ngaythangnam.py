@@ -25,6 +25,8 @@ else:
         print("Thang khong hop le.")
     elif ngay < 1 or ngay > x[thang -1]:
         print("Ngay khong hop le.")
+    elif ngay < 1 or ngay > x[thang -1] and thang < 1 or thang > 12:
+        print("Ngay va thang khong hop le")
     else:
         print("Ngay, thang, nam hop le.")
         
