@@ -15,5 +15,6 @@ if a == 0:
 else:
     x = -b / a
     print(f"Nghiem cua phuong trinh la: x = {x}")
+    Bỏ
     
     
